@@ -1,0 +1,5 @@
+node_modules
+dist
+paquete.js
+paquete.js.LICENSE.txt
+firebase-debug.log
