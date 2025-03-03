@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className={css.bodyc}>
       <div>
-        <h1>radio en vivo</h1>
+        <h1 className={css.title}>radio en vivo</h1>
       </div>
       <section>
         <div className={css.container}>
