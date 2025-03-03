@@ -1,13 +1,12 @@
 .bodyc {
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 60%;
   height: 100vh;
   margin: auto;
 }
-.container {
+.contenedor_product {
   height: 75%;
-  background-color: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
 }
 .title {
   font-family: "Poppins", sans-serif;

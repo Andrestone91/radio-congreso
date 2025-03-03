@@ -47,21 +47,33 @@ function NewSection({ url }) {
   }
 
   return (
-    <div>
-      <ReactPlayer ref={playerRef} url={videoSrc} controls playing />
-      {levels.length > 0 && (
-        <select
-          onChange={(e) => handleQualityChange(parseInt(e.target.value))}
-          value={selectedLevel}
-        >
-          <option value="-1">Auto</option>
-          {levels.map((level) => (
-            <option key={level.index} value={level.index}>
-              {level.height}p
-            </option>
-          ))}
-        </select>
-      )}
+    <div className={css.bodyc}>
+      <div>
+        <h1 className={css.title}>video de muestra</h1>
+      </div>
+      <div className={css["contenedor_product"]}>
+        <ReactPlayer
+          width="100%"
+          height="100%"
+          ref={playerRef}
+          url={videoSrc}
+          controls
+          playing
+        />
+        {levels.length > 0 && (
+          <select
+            onChange={(e) => handleQualityChange(parseInt(e.target.value))}
+            value={selectedLevel}
+          >
+            <option value="-1">Auto</option>
+            {levels.map((level) => (
+              <option key={level.index} value={level.index}>
+                {level.height}p
+              </option>
+            ))}
+          </select>
+        )}
+      </div>
     </div>
   );
 }
