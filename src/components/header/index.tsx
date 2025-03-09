@@ -13,10 +13,10 @@ function Header() {
         <Link to={"/muestra"} className={css["text-nav"]}>
           muestra
         </Link>
-        {/* <a href="" className={css["text-nav"]}>
-          menu
+        <a href="/contacto" className={css["text-nav"]}>
+          contacto
         </a>
-        <a href="" className={css["text-nav"]}>
+        {/* <a href="" className={css["text-nav"]}>
           menu
         </a> */}
       </div>
