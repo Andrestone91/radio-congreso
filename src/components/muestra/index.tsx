@@ -49,7 +49,7 @@ function NewSection({ url }) {
   return (
     <div className={css.bodyc}>
       <div>
-        <h1 className={css.title}>video de muestra</h1>
+        <h1 className={css.title}>Video de muestra</h1>
       </div>
       <div className={css["contenedor_product"]}>
         <ReactPlayer

@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Layout } from "components/layout";
 import { Home } from "pages/home";
 import { NewSection } from "components/muestra";
+import { Contacto } from "components/contacto";
 
 const AppRoutes = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const AppRoutes = createBrowserRouter([
           />
         ),
       },
+      {
+        path:"/contacto",
+        element:<Contacto></Contacto>
+      }
     ],
   },
 ]);
