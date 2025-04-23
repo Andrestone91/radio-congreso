@@ -1,12 +1,28 @@
 .bodyc {
   display: flex;
   flex-direction: column;
-  width: 65%;
-  /* height: 100vh; */
-  margin: auto;
+  justify-content: space-between;
+  min-height: 66vh;
+  width: 100%;
+  margin: 0px auto auto auto;
+}
+@media (min-width: 1000px) {
+  .bodyc {
+    width: 80%;
+  }
+}
+
+@media(min-width: 1366px) {
+  .bodyc {
+    width: 65%;
+  }
 }
 .container {
-  height: 75%;
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 5rem; 
   background-color: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
 }
 .title {

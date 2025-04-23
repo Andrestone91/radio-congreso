@@ -10,9 +10,9 @@ function Header() {
         <Link to={"/"} className={css["text-nav"]}>
           Inicio
         </Link>
-        <Link to={"/muestra"} className={css["text-nav"]}>
+        {/* <Link to={"/muestra"} className={css["text-nav"]}>
           muestra
-        </Link>
+        </Link> */}
         <a href="/contacto" className={css["text-nav"]}>
           contacto
         </a>

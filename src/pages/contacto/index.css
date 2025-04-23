@@ -6,7 +6,8 @@
   margin: auto;
 }
 .contenedor_product {
-  height: 75%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .title {
   font-family: "Poppins", sans-serif;
